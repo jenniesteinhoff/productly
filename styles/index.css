@@ -173,21 +173,22 @@ button {
     margin-right: 23px;
     transform: translateX(40px);
 }
-.card.feature.icon button {
+.btn.feature.icon button {
     height: 50px;
     width: 50px;
     border-radius: 19px;
+    color: #FFF;
 }
-.card.feature.icon.purple button {
+.btn.feature.icon.purple button {
     background-color: #7752BE;
 }
-.card.feature.icon.yellow button {
+.btn.feature.icon.yellow button {
     background-color: #FAB005;
 }
-.card.feature.icon.red button {
+.btn.feature.icon.red button {
     background-color: #F03E3D;
 }
-.card.feature.icon.blue button {
+.btn.feature.icon.blue button {
     background-color: #4DADF7;
 }
 .card.feature.heading {
@@ -255,4 +256,79 @@ button {
     font-size: 16px;
     line-height: 26px;
     color: #544837;
+}
+
+/*Product*/
+.container__product {
+    margin-top: 101px;
+    display: flex;
+    flex-direction: row;
+    height: 521px;
+    width: 1121px;
+}
+.container__product-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+.card.product.title { 
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2F281E;
+}
+.card.product.overtitle {
+    margin-top: 49px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.design.product.text {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.card__product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 181px;
+    width: 486px;
+}
+.card__product-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 216px;
+    width: 450px;
+    margin-bottom: 45px;
+}
+.card.product.list {
+    display: flex;
+    width: 385px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn.product.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+.btn.product.icon button {
+    height: 35px;
+    width: 35px;
+    background-color: #FF9900;
+    color: #FFF;
+    border-radius: 13.85px;
+    
 }
