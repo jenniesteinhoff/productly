@@ -1,3 +1,76 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/*Navigation*/
+.container__nav {
+    display: flex;
+    height: 78px;
+    width: 1400px;
+    align-items: center;
+    justify-content: space-around;
+}
+ /*Logo*/
+.card.logo {
+    display: flex;
+    height: 39px;
+    width: 186px;
+    align-items: flex-start;
+    
+}
+.title__nav {
+    transform:translate(12px, 3px);
+}
+
+/*Buttons*/
+.card.btn_group1 {
+    transform: translateX(120px);
+    width: 350px;
+}
+.card.btn_group2 {
+    width: 226px;
+}
+.card.btn_group1, .card.btn_group2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card.btn_group1 button, .card.btn_group1 button :hover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 38px;
+    width: 102px;
+    border-width: 0px;
+    border-radius: 4px;
+}
+.card.btn_group2 button, .card.btn_group2 button :hover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    height: 46px;
+    border-width: 0px;
+    border-radius: 4px;
+}
+.card.btn_group1 :hover, .card.btn_group2 :hover {
+    background-color: #173A56;
+    color: #FFF;
+    transition: 0.8s;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.btn.sign_in button {
+    background-color: #FFF;
+    color: #173A56;
+    border-color: #BCD0E5;
+    border-width: 1px;
+    border-style: solid;
+    width: 102px;
+}
+.btn.sign_up button{
+    background-color: #FF9900;
+    color: #FFF;
+    width: 110px;
+}
