@@ -154,7 +154,6 @@ button {
     flex-direction: column;
     align-items: center;
 }
-
 .card.feature_heading {
     display: flex;
     height: 108px;
@@ -165,7 +164,6 @@ button {
     font-size: 36px;
     text-align: center;
 }
-
 .card.feature_middle {
     display: flex;
     height: 204px;
@@ -215,4 +213,46 @@ button {
     background-color: #FF9900;
     color: #FFF;
     border-radius: 4px;
+}
+
+/*Design*/
+.container__design {
+    display: flex;
+    height: 574px;
+    width: 1110px;
+}
+.container__design-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 486px;
+    margin-right: 104px;
+}
+
+.card.design.title { 
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2F281E;
+}
+.card.design.heading {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #2F281E;
+}
+.design.text {
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.card.design.overtitle {
+    margin-top: 26px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
