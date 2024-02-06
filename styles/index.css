@@ -4,7 +4,9 @@ body {
     align-items: center;
     margin: 20px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     line-height: normal;
+    color: #544837;
 }
 
 button {
@@ -110,6 +112,7 @@ button {
     width: 458px;
     font-size: 18px;
     line-height: 28px;
+    font-weight: 400;
     color: #544837;
 }
 .card.header.section3 {
@@ -204,7 +207,7 @@ button {
     line-height: 26px;
     color: #544837;
 }
-.btn.sign_up_now button {
+.btn.sign_up_now1 button {
     margin-top: 34px;
     margin-bottom: 90px;
     height: 53px;
@@ -331,4 +334,111 @@ button {
     color: #FFF;
     border-radius: 13.85px;
     
+}
+
+/*Marketers*/
+.container__marketer {
+    display: flex;
+    height: 606px;
+    width: 1110px;
+    margin-top: 104px;
+}
+.container__marketer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 486px;
+    margin-right: 104px;
+}
+.card.marketer_1 {
+    margin-bottom: 10px;
+}
+.card.marketer.title { 
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2F281E;
+}
+.card.marketer.heading {
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #2F281E;
+}
+.marketer.text {
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.card.marketer.overtitle {
+    margin-top: 39px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+/*Footer*/
+.container__footer, footer {
+    display: flex;
+    height: 308px;
+    width: 1109px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 146px;
+    margin-bottom: 83px ;
+    margin-left: 13px;
+}
+.card.logo.footer {
+    align-self: flex-start;
+}
+.card.footer_list {
+    display: flex;
+    align-self: flex-end;
+    height: 205px;
+    width: 378px;
+    margin-left: 60px;
+    line-height: 35px;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.card.btn_list1 button, .card.btn_list2 button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #544837;
+}
+.card.btn_list1 :hover, .card.btn_list2 :hover {
+    font-weight: 700;
+    transition: 0.8s;
+}
+
+.btn.search_bar {
+    height: 48px;
+    width: 325px;
+    border-style: solid;
+    border-color: #BCD0E5;
+    border-width: 1px;
+}
+.btn.sign_up_now2 button {
+    height: 39px;
+    width: 131px;
+    margin-top: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: #FFF;
+}
+
+.btn.sign_up_now2 :hover {
+    background-color: #173A56;
+    color: #FFF;
+    transition: 0.8s;
+}
+.card.btn_group3 {
+    display: flex;
+    flex-direction: column;
 }
